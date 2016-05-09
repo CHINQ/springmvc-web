@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="movieapp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/movieapp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springmvc-web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springmvc-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-web-3.2.1.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-security-web-3.1.3.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-security-core-3.1.3.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-security-config-3.1.3.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.springframework.aop-3.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.springframework.asm-3.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.springframework.web-3.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/com.springsource.org.aopalliance-1.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.springframework.core-3.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.springframework.beans-3.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.springframework.context-3.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.springframework.expression-3.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/org.springframework.web.servlet-3.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
