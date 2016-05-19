@@ -1,4 +1,4 @@
-package demo.Gof.SimpleFactoryMethodPattern;
+package demo.Gof.SimpleFactoryMethod;
 
 import java.util.Scanner;
 

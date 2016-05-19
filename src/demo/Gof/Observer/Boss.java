@@ -1,4 +1,4 @@
-package demo.Gof.ObserverPattern;
+package demo.Gof.Observer;
 
 import java.util.ArrayList;
 

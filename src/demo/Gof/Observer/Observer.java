@@ -1,4 +1,4 @@
-package demo.Gof.ObserverPattern;
+package demo.Gof.Observer;
 
 /**
  * Created by 83708 on 2016/5/17.

@@ -1,4 +1,4 @@
-package demo.Gof.TemplatePattern;
+package demo.Gof.Template;
 
 /**
  * Created by 83708 on 2016/3/9.
