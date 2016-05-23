@@ -9,31 +9,7 @@ public class GameRole
     private int atk;
     private int def;
 
-    public int getVit() {
-        return vit;
-    }
-
-    public void setVit(int vit) {
-        this.vit = vit;
-    }
-
-    public int getAtk() {
-        return atk;
-    }
-
-    public void setAtk(int atk) {
-        this.atk = atk;
-    }
-
-    public int getDef() {
-        return def;
-    }
-
-    public void setDef(int def) {
-        this.def = def;
-    }
-
-    public void stateDisPlay(){
+    public void StateDisPlay(){
         System.out.println("角色当前状态：");
         System.out.printf("体力%s",this.vit);
         System.out.printf("攻击力%s",this.atk);
@@ -49,4 +25,13 @@ public class GameRole
         this.atk=0;
         this.def=0;
     }
+    public RoleStateMemento SaveState(){
+        return (new RoleStateMemento(vit,atk,def));
+    }
+    public void RecoveryState(RoleStateMemento memento){
+        this.vit=memento.getVit();
+        this.atk=memento.getAtk();
+        this.def=memento.getDef();
+    }
+
 }

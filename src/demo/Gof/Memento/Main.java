@@ -6,6 +6,13 @@ package demo.Gof.Memento;
 public class Main {
     public static void main(String[]args){
         GameRole l=new GameRole();
-
+        l.GetInitState();
+        l.StateDisPlay();
+        RoleStateCaretaker state=new RoleStateCaretaker();
+        state.setMemento(l.SaveState());
+        l.Fight();
+        l.StateDisPlay();
+        l.RecoveryState(state.getMemento());
+        l.StateDisPlay();
     }
 }
